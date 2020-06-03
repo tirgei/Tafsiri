@@ -7,6 +7,7 @@ Tafsiri, swahili word for translate, is a translation service that allows user t
 - Hindi
 - Hungarian
 - Igbo
+- Indonesian
 - Japanese
 - Marathi
 - Spanish

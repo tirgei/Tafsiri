@@ -54,7 +54,7 @@ export class TranslationController {
             {'language': 'Hindi', 'abbreviation': 'hi'},
             {'language': 'Hungarian', 'abbreviation': 'hu'},
             {'language': 'Igbo', 'abbreviation': 'ig'},
-            {'language': 'Indonesian', 'abbreviation': 'in'},
+            {'language': 'Indonesian', 'abbreviation': 'id'},   
             {'language': 'Japanese', 'abbreviation': 'ja'},
             {'language': 'Marathi', 'abbreviation': 'mr'},
             {'language': 'Spanish', 'abbreviation': 'es'},
