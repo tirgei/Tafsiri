@@ -20,7 +20,7 @@ export class Routes {
         this.router.get('/', (req, res) => {
             res.status(200).json({
                 code: 200,
-                message: 'Welcome to the Translator service'
+                message: 'Welcome to Tafsiri, The Ultimate Translator Service'
             });
         });
 
