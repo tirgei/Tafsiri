@@ -64,7 +64,7 @@ The available endpoints are:
 
 | **HTTP METHOD** | **URI** | **ACTION** |
 | --- | --- | --- |
-| **GET** | `/` | Landing page |
+| **GET** | `/` | Welcome message |
 | **GET** | `/translate` | Translate |
 
 A sample response for the translate endpoint is:
