@@ -1,0 +1,1 @@
+{"version":3,"file":"error-404.js","sourceRoot":"","sources":["../../src/middleware/error-404.ts"],"names":[],"mappings":";;;AAEA,0BAA0B;AACb,QAAA,QAAQ,GAAG,CAAC,GAAY,EAAE,GAAa,EAAE,IAAkB,EAAE,EAAE;IACxE,GAAG,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,EAAC,QAAQ,EAAE,GAAG,EAAE,SAAS,EAAE,8BAA8B,EAAC,CAAC,CAAC;AACrF,CAAC,CAAA"}
