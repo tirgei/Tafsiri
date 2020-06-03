@@ -67,6 +67,7 @@ The available endpoints are:
 | --- | --- | --- |
 | **GET** | `/` | Welcome message |
 | **GET** | `/translate` | Translate |
+| **GET** | `/languages` | List of available languages |
 
 A sample response for the translate endpoint is:
 

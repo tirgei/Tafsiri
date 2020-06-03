@@ -1,5 +1,4 @@
 import { Request, Response } from "express";
-import { resolve } from "dns";
 const translate = require('@vitalets/google-translate-api');
 
 // Class to handle translations
@@ -19,6 +18,12 @@ export class TranslationController {
             'message': `Error translating ${text}`,
             'error': error
           }));
+    }
+
+    // Return list of available languages
+    public availableLangauges(res: Response) {
+        const languages = this.languages();
+       return res.status(200).json({'status': 200, 'data': languages})
     }
 
     // Define languages to translate to and return array of translations

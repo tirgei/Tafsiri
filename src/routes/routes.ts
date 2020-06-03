@@ -28,6 +28,11 @@ export class Routes {
         this.router.get('/translate', (req: Request, res: Response) => {
             this.controller.translationHandler(req, res);
         });
+
+        // Languages
+        this.router.get('/languages', (req: Request, res: Response) => {
+            this.controller.availableLangauges(res);
+        });
     }
 
 }

@@ -23,6 +23,10 @@ class Routes {
         this.router.get('/translate', (req, res) => {
             this.controller.translationHandler(req, res);
         });
+        // Languages
+        this.router.get('/languages', (req, res) => {
+            this.controller.availableLangauges(res);
+        });
     }
 }
 exports.Routes = Routes;

@@ -26,6 +26,11 @@ class TranslationController {
             'error': error
         }));
     }
+    // Return list of available languages
+    availableLangauges(res) {
+        const languages = this.languages();
+        return res.status(200).json({ 'status': 200, 'data': languages });
+    }
     // Define languages to translate to and return array of translations
     translatorService(text) {
         return __awaiter(this, void 0, void 0, function* () {
